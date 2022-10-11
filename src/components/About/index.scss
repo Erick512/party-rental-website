@@ -1,0 +1,40 @@
+h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+}
+
+#about p {
+    font-size: 1.8rem;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+.imgDiv {
+    display: flex;
+    margin-top: 50px;
+}
+
+img {
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+
+    img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-height: 800px) and (min-width: 600px) {
+
+    img {
+        height: 350px;
+    }
+    
+}

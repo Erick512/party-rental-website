@@ -1,0 +1,27 @@
+button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 15px;
+
+    &:hover {
+        transform: scale(.97);
+        border: 2px solid white;
+        background-color: #fb6fbeec;
+    }
+
+    &.submit {
+        // width: ;
+        
+        margin-top: 10px;
+        font-size: 20px;
+
+        &:hover {
+            transform: scale(.99);
+            border: 1px solid black;
+        }
+    }
+}

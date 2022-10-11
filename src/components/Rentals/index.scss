@@ -1,0 +1,32 @@
+h2 {
+    display: block;
+    width: 30%;
+}
+.product-zone {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 600px) {
+
+    #rentals {
+        display: flex;
+        flex-wrap: wrap;
+
+        h2 {
+            width: 100%;
+        }
+
+        .product-zone {
+            height: 70%;
+            width: 100%;
+            align-items: flex-start;
+        }
+    }
+}

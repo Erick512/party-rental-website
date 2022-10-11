@@ -1,0 +1,109 @@
+div.productZone {
+    display: flex;
+    background-color: white;
+    width: 90%;
+    border-radius: 10px;
+
+    img {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 70%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+
+    .productInfo {
+
+        color: black;
+        width: 50%;
+
+        form {
+
+            div {
+                width: 200px;
+            }
+
+            label {
+                margin: 0 0 ;
+            }
+
+            h3 {
+                width: 100%;
+                text-align: center;
+            }
+    
+            .inputControl {
+                width: 90%;
+                margin: auto;
+                color: black;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid rgba(59, 59, 59, 0.1);
+    
+                h4{
+                    width: 50%;
+                }
+            }
+
+            div.btnControl {
+                display: flex;
+                width: 90%;
+                margin: 20px auto;
+                justify-content: end;
+
+                button {
+                    height: 50px;
+                    box-shadow: 1px 1px 10px .5px rgb(0,0,0, .2);
+                    border: none;
+                }
+            }
+        }
+
+
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .productZone .productInfo form div {
+        width: 120px;
+        font-size: 13px;
+        display: block;
+    }
+
+    .productZone {
+        img {
+            height: 200px;
+        }
+
+        .productInfo {
+            form {
+
+                h4 {
+                    font-size: 13px;
+                }
+
+                .css-1e7cuzv-MuiFormControl-root {
+                    min-width: 120px;
+                }
+
+                div.btnControl button {
+                    font-size: 10px;
+                    width: 100px;
+                    height: 40px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media (min-width: 800px) {
+    div.productZone {
+        width: 800px;
+    }
+}
